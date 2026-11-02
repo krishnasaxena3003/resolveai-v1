@@ -1,0 +1,13 @@
+# Phase 1 (backend)
+pydantic>=2.6
+rapidfuzz>=3.6
+openai>=1.40
+python-dotenv>=1.0
+pillow>=10.0
+pytest>=8.0
+# Phase 2 (UI), installed now so the environment is ready
+streamlit>=1.50
+plotly>=5.22
+pandas>=2.0
+folium>=0.17
+streamlit-folium>=0.24

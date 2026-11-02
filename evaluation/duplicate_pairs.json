@@ -1,0 +1,389 @@
+{
+ "note": "Hand-written by the ResolveAI team assistant. Not real campus data. 'dev' (32 pairs) was used to design and tune the matcher. 'test' (16 pairs) was written after the matcher design was frozen and is scored once for reporting.",
+ "pairs": [
+  {
+   "a": "No electricity in Hostel Block B since morning",
+   "loc_a": "Hostel Block B",
+   "b": "Power cut in Hostel B block, no electricity since today morning",
+   "loc_b": "Hostel B",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Wi-Fi keeps disconnecting in the library reading hall",
+   "loc_a": "Library",
+   "b": "Library wifi not working properly, keeps dropping",
+   "loc_b": "Library",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Tap leaking in Lab 3 washroom",
+   "loc_a": "Lab 3",
+   "b": "Water leaking from tap in the washroom near Lab 3",
+   "loc_b": "Lab 3",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Projector not working in lecture hall 2",
+   "loc_a": "LH-2",
+   "b": "LH-2 projector shows no signal",
+   "loc_b": "LH-2",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Garbage not collected near the mess for two days",
+   "loc_a": "Mess",
+   "b": "Mess area garbage bins overflowing, nobody collected",
+   "loc_b": "Mess",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Fan not working in room 214",
+   "loc_a": "Room 214",
+   "b": "Ceiling fan in room 214 stopped working",
+   "loc_b": "Room 214",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "AC in computer lab 1 is not cooling",
+   "loc_a": "Computer Lab 1",
+   "b": "Computer lab 1 air conditioner not cooling properly",
+   "loc_b": "Computer Lab 1",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Water supply stopped in hostel A bathrooms",
+   "loc_a": "Hostel A",
+   "b": "No water in hostel A washrooms since morning",
+   "loc_b": "Hostel A",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "No electricity in Hostel Block B since morning",
+   "loc_a": "Hostel Block B",
+   "b": "No electricity in Hostel Block D since morning",
+   "loc_b": "Hostel Block D",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Wi-Fi keeps disconnecting in the library reading hall",
+   "loc_a": "Library",
+   "b": "Wi-Fi not available in Hostel A",
+   "loc_b": "Hostel A",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Tap leaking in Lab 3 washroom",
+   "loc_a": "Lab 3",
+   "b": "Tap leaking in Hostel C mess",
+   "loc_b": "Hostel C",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Projector not working in lecture hall 2",
+   "loc_a": "LH-2",
+   "b": "Projector remote missing in lecture hall 5",
+   "loc_b": "LH-5",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Garbage not collected near the mess",
+   "loc_a": "Mess",
+   "b": "Tube light flickering near the mess entrance",
+   "loc_b": "Mess",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Fan not working in room 214",
+   "loc_a": "Room 214",
+   "b": "Window broken in room 214",
+   "loc_b": "Room 214",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "AC not cooling in computer lab 1",
+   "loc_a": "Computer Lab 1",
+   "b": "Computers very slow in computer lab 1",
+   "loc_b": "Computer Lab 1",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Water supply stopped in hostel A",
+   "loc_a": "Hostel A",
+   "b": "Printer out of toner in admin office",
+   "loc_b": "Admin Office",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Lights are off in the entire second floor of the girls hostel",
+   "loc_a": "Girls Hostel",
+   "b": "Second floor of girls hostel has no power since evening",
+   "loc_b": "Girls Hostel",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Internet is very slow in the seminar hall",
+   "loc_a": "Seminar Hall",
+   "b": "Seminar hall network extremely slow today",
+   "loc_b": "Seminar Hall",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Washroom flush broken in block C ground floor",
+   "loc_a": "Block C",
+   "b": "Flush not working in ground floor washroom of block C",
+   "loc_b": "Block C",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Lab computer 12 does not boot",
+   "loc_a": "Lab 2",
+   "b": "Computer number 12 in lab 2 won't start",
+   "loc_b": "Lab 2",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Door lock broken in room 305",
+   "loc_a": "Room 305",
+   "b": "Room 305 door lock is broken, cannot lock",
+   "loc_b": "Room 305",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Dustbins overflowing outside the canteen",
+   "loc_a": "Canteen",
+   "b": "Canteen dustbins full and smelling bad",
+   "loc_b": "Canteen",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Water cooler on 3rd floor leaking",
+   "loc_a": "Main Building",
+   "b": "Leak from the water cooler on third floor",
+   "loc_b": "Main Building",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Sparks from the socket in room 118",
+   "loc_a": "Room 118",
+   "b": "Socket in room 118 is sparking",
+   "loc_b": "Room 118",
+   "duplicate": 1,
+   "split": "dev"
+  },
+  {
+   "a": "Lights are off in the second floor of girls hostel",
+   "loc_a": "Girls Hostel",
+   "b": "Lights are off in the second floor of boys hostel",
+   "loc_b": "Boys Hostel",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Internet slow in seminar hall",
+   "loc_a": "Seminar Hall",
+   "b": "Internet slow in the library",
+   "loc_b": "Library",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Flush broken in block C washroom",
+   "loc_a": "Block C",
+   "b": "Tap leaking in block C washroom",
+   "loc_b": "Block C",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Computer 12 does not boot in lab 2",
+   "loc_a": "Lab 2",
+   "b": "Keyboard missing at computer 12 in lab 2",
+   "loc_b": "Lab 2",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Door lock broken in room 305",
+   "loc_a": "Room 305",
+   "b": "Door lock broken in room 412",
+   "loc_b": "Room 412",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Dustbins overflowing at canteen",
+   "loc_a": "Canteen",
+   "b": "Canteen serves stale food",
+   "loc_b": "Canteen",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Water cooler leaking on 3rd floor",
+   "loc_a": "Main Building",
+   "b": "Water cooler not cold on 3rd floor",
+   "loc_b": "Main Building",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Sparks from socket in room 118",
+   "loc_a": "Room 118",
+   "b": "Fan making noise in room 118",
+   "loc_b": "Room 118",
+   "duplicate": 0,
+   "split": "dev"
+  },
+  {
+   "a": "Street light near the main gate is not glowing",
+   "loc_a": "Main Gate",
+   "b": "Main gate street lamp is not working at night",
+   "loc_b": "Main Gate",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Hostel C geyser not heating water",
+   "loc_a": "Hostel C",
+   "b": "No hot water from the geyser in hostel C",
+   "loc_b": "Hostel C",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Library AC is too cold and not adjustable",
+   "loc_a": "Library",
+   "b": "Cannot control AC temperature in library, too cold",
+   "loc_b": "Library",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Sink blocked in girls washroom ground floor",
+   "loc_a": "Block A",
+   "b": "Washbasin choked in ground floor girls washroom",
+   "loc_b": "Block A",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Lift not working in admin block",
+   "loc_a": "Admin Block",
+   "b": "Admin block lift out of order",
+   "loc_b": "Admin Block",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Bench broken in classroom 4",
+   "loc_a": "Classroom 4",
+   "b": "A broken bench in class room 4 needs repair",
+   "loc_b": "Classroom 4",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Wifi password not accepted in hostel D",
+   "loc_a": "Hostel D",
+   "b": "Cannot connect to wifi in hostel D, password rejected",
+   "loc_b": "Hostel D",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Water tank overflowing on roof of block B",
+   "loc_a": "Block B",
+   "b": "Overflow from roof water tank at block B",
+   "loc_b": "Block B",
+   "duplicate": 1,
+   "split": "test"
+  },
+  {
+   "a": "Street light not working near main gate",
+   "loc_a": "Main Gate",
+   "b": "Street light not working near the sports ground",
+   "loc_b": "Sports Ground",
+   "duplicate": 0,
+   "split": "test"
+  },
+  {
+   "a": "Hostel C geyser not heating water",
+   "loc_a": "Hostel C",
+   "b": "Hostel C bathroom door latch broken",
+   "loc_b": "Hostel C",
+   "duplicate": 0,
+   "split": "test"
+  },
+  {
+   "a": "Library AC too cold",
+   "loc_a": "Library",
+   "b": "Library lights flickering",
+   "loc_b": "Library",
+   "duplicate": 0,
+   "split": "test"
+  },
+  {
+   "a": "Sink blocked in girls washroom block A",
+   "loc_a": "Block A",
+   "b": "Sink blocked in boys washroom block A",
+   "loc_b": "Block A",
+   "duplicate": 0,
+   "split": "test"
+  },
+  {
+   "a": "Lift not working in admin block",
+   "loc_a": "Admin Block",
+   "b": "Lift not working in library building",
+   "loc_b": "Library",
+   "duplicate": 0,
+   "split": "test"
+  },
+  {
+   "a": "Bench broken in classroom 4",
+   "loc_a": "Classroom 4",
+   "b": "Projector not turning on in classroom 4",
+   "loc_b": "Classroom 4",
+   "duplicate": 0,
+   "split": "test"
+  },
+  {
+   "a": "Wifi not connecting in hostel D",
+   "loc_a": "Hostel D",
+   "b": "Wifi not connecting in hostel E",
+   "loc_b": "Hostel E",
+   "duplicate": 0,
+   "split": "test"
+  },
+  {
+   "a": "Water tank overflowing on roof of block B",
+   "loc_a": "Block B",
+   "b": "Water tank cleaning pending for block B",
+   "loc_b": "Block B",
+   "duplicate": 0,
+   "split": "test"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+# Put a TLS-terminating reverse proxy (Caddy, nginx, a cloud load balancer) in front of port 8501. See DEPLOYMENT.md.
+services:
+  resolveai:
+    build: .
+    env_file: .env
+    environment:
+      DB_PATH: /data/resolveai.db
+    ports:
+      - "127.0.0.1:8501:8501"   # only the local proxy can reach the app directly
+    volumes:
+      - resolveai-data:/data
+    restart: unless-stopped
+  backup:
+    build: .
+    command: sh -c "while true; do python backup.py --db /data/resolveai.db --dir /data/backups --keep 14; sleep 86400; done"
+    environment:
+      DB_PATH: /data/resolveai.db
+    volumes:
+      - resolveai-data:/data
+    restart: unless-stopped
+volumes:
+  resolveai-data:
